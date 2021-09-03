@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour
     private GameObject newBackgroud;
     private bool wasAdded;
 
+    private float currentTime;
     //public GameObject enemyPrefab;
 
     // Start is called before the first frame update
@@ -24,11 +25,13 @@ public class GameController : MonoBehaviour
 
         //Spawn enemies
         StartCoroutine(enemyWave());
+        currentTime = 0.0f;
     }
 
     // Update is called once per frame
     void Update()
     {
+
         Vector2 currentPgPosition = currentBackgroud.transform.position;
         if (currentPgPosition.y <= 0.0f && !wasAdded)
         {
@@ -50,6 +53,16 @@ public class GameController : MonoBehaviour
         if (wasAdded)
         {
             newBackgroud.transform.position = new Vector2(0.0f, newBackgroud.transform.position.y - 2.0f*Time.deltaTime);
+        }
+
+        if(currentTime + Time.deltaTime >= 7.0f)
+        {
+            SpawnMeteorite();
+            currentTime -= 7.0f;
+        }
+        else
+        {
+            currentTime += Time.deltaTime;
         }
     }
 
@@ -76,5 +89,18 @@ public class GameController : MonoBehaviour
         }
         enemy.transform.position = new Vector2(posEnemyX, m_ScreenBounds.y);
         enemy.SetActive(true);
+    }
+
+    void SpawnMeteorite()
+    {
+        float posEnemyX = Random.Range(0.0f, m_ScreenBounds.x * 2) - m_ScreenBounds.x;
+        GameObject meteorite = ObjectPooler.SharedInstance.GetPooledObject("meteorite");
+        if (meteorite == null)
+        {
+            Debug.Log("meteorite is null");
+            return;
+        }
+        meteorite.transform.position = new Vector2(posEnemyX, m_ScreenBounds.y);
+        meteorite.SetActive(true);
     }
 }

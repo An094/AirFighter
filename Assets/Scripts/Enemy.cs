@@ -23,4 +23,35 @@ public class Enemy : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.transform.tag == "bullet")
+        {
+            gameObject.SetActive(false);
+            collision.gameObject.SetActive(false);
+            GameObject expl = ObjectPooler.SharedInstance.GetPooledObject("explosion");
+            if(expl == null)
+            {
+                Debug.Log("explosion is null");
+                return;
+            }
+            expl.transform.position = transform.position;
+            expl.SetActive(true);
+        }
+        else if(collision.transform.tag == "player")
+        {
+            gameObject.SetActive(false);
+            collision.gameObject.SetActive(false);
+            GameObject expl = ObjectPooler.SharedInstance.GetPooledObject("explosion");
+            if (expl == null)
+            {
+                Debug.Log("explosion is null");
+                return;
+            }
+            expl.transform.position = transform.position;
+            expl.SetActive(true);
+            Debug.Log("GAME OVER");
+        }
+    }
 }

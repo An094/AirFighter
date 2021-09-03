@@ -18,13 +18,30 @@ public class Player : MonoBehaviour
     void Update()
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        if(mousePos.x > m_ScreenBounds.x* -1.0f && mousePos.x < m_ScreenBounds.x
+        //Detect mouse click on 
+        //if (Input.GetMouseButtonDown(0))
+        //{
+        //    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        //    RaycastHit hit;
+        //    if (Physics.Raycast(ray, out hit))
+        //    {
+        //        //Select stage    
+        //        if (hit.transform.tag == "player")
+        //        {
+        //            Debug.Log("Click on player");
+        //        }
+        //    }
+        //}
+
+
+        if (Input.GetButton("Fire1")
+            && mousePos.x > m_ScreenBounds.x * -1.0f && mousePos.x < m_ScreenBounds.x
             && mousePos.y > m_ScreenBounds.y * -1.0f && mousePos.y < m_ScreenBounds.y)
         {
             transform.position = mousePos;
 
         }
-        if( currentTime + Time.deltaTime >= shotTime)
+        if (currentTime + Time.deltaTime >= shotTime)
         {
             GameObject bullet = ObjectPooler.SharedInstance.GetPooledObject("bullet");
             if (bullet == null)

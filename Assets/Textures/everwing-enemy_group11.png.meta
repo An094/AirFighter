@@ -1,0 +1,1260 @@
+fileFormatVersion: 2
+guid: 6e66edfcc3de05f4eb8bacad3441f418
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7900888227628625862
+    second: everwing-enemy_group11_0
+  - first:
+      213: -7772566030802549463
+    second: everwing-enemy_group11_1
+  - first:
+      213: -3512826685314285047
+    second: everwing-enemy_group11_2
+  - first:
+      213: 6752573926661524316
+    second: everwing-enemy_group11_3
+  - first:
+      213: -4147164927536692044
+    second: everwing-enemy_group11_4
+  - first:
+      213: 5166869075483108001
+    second: everwing-enemy_group11_5
+  - first:
+      213: 2202872545502352357
+    second: everwing-enemy_group11_6
+  - first:
+      213: -5466607886859624030
+    second: everwing-enemy_group11_7
+  - first:
+      213: 610202093836803690
+    second: everwing-enemy_group11_8
+  - first:
+      213: -4145556441953258400
+    second: everwing-enemy_group11_9
+  - first:
+      213: -8524045324340100549
+    second: everwing-enemy_group11_10
+  - first:
+      213: 3980537950457265454
+    second: everwing-enemy_group11_11
+  - first:
+      213: 8827039862104156227
+    second: everwing-enemy_group11_12
+  - first:
+      213: 786461194268730397
+    second: everwing-enemy_group11_13
+  - first:
+      213: 520533520637470623
+    second: everwing-enemy_group11_14
+  - first:
+      213: -4122367179282917810
+    second: everwing-enemy_group11_15
+  - first:
+      213: -9091680635874714015
+    second: everwing-enemy_group11_16
+  - first:
+      213: 1393875764771513247
+    second: everwing-enemy_group11_17
+  - first:
+      213: -5882982146462291430
+    second: everwing-enemy_group11_18
+  - first:
+      213: 6754296853296519604
+    second: everwing-enemy_group11_19
+  - first:
+      213: 7678845063384109957
+    second: everwing-enemy_group11_20
+  - first:
+      213: 2420339957643008453
+    second: everwing-enemy_group11_21
+  - first:
+      213: -5538993069342525198
+    second: everwing-enemy_group11_22
+  - first:
+      213: -4062294514256722941
+    second: everwing-enemy_group11_23
+  - first:
+      213: 5294567193085386049
+    second: everwing-enemy_group11_24
+  - first:
+      213: 4821201296475594861
+    second: everwing-enemy_group11_25
+  - first:
+      213: -6460077517306732211
+    second: everwing-enemy_group11_26
+  - first:
+      213: -4215544859542740781
+    second: everwing-enemy_group11_27
+  - first:
+      213: -6234859924370711139
+    second: everwing-enemy_group11_28
+  - first:
+      213: -5910141223294747031
+    second: everwing-enemy_group11_29
+  - first:
+      213: -7367964494085314439
+    second: everwing-enemy_group11_30
+  - first:
+      213: -5782903217570951364
+    second: everwing-enemy_group11_31
+  - first:
+      213: 4663033076238413575
+    second: everwing-enemy_group11_32
+  - first:
+      213: -5331728751945536790
+    second: everwing-enemy_group11_33
+  - first:
+      213: 6558439841183901102
+    second: everwing-enemy_group11_34
+  - first:
+      213: -2973475743174001515
+    second: everwing-enemy_group11_35
+  - first:
+      213: -805708005203020492
+    second: everwing-enemy_group11_36
+  - first:
+      213: 5836584910306149458
+    second: everwing-enemy_group11_37
+  - first:
+      213: 119561783263430681
+    second: everwing-enemy_group11_38
+  - first:
+      213: 1435142668708219276
+    second: everwing-enemy_group11_39
+  - first:
+      213: 4659389192536144320
+    second: everwing-enemy_group11_40
+  - first:
+      213: -5601846497040952650
+    second: everwing-enemy_group11_41
+  - first:
+      213: 5798861419960601158
+    second: everwing-enemy_group11_42
+  - first:
+      213: -538557925980909744
+    second: everwing-enemy_group11_43
+  - first:
+      213: 5194547321903352981
+    second: everwing-enemy_group11_44
+  - first:
+      213: 178990847637548179
+    second: everwing-enemy_group11_45
+  - first:
+      213: 7510405587867647468
+    second: everwing-enemy_group11_46
+  - first:
+      213: -4330917376726013275
+    second: everwing-enemy_group11_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: everwing-enemy_group11_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1890.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30512684086a5290800000000000000
+      internalID: -7900888227628625862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1890.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9250fb4306c422490800000000000000
+      internalID: -7772566030802549463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1890.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9024450ddbeef3fc0800000000000000
+      internalID: -3512826685314285047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1890.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b893aa536f5bd50800000000000000
+      internalID: 6752573926661524316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1733.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b48735987f4276c0800000000000000
+      internalID: -4147164927536692044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1733.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a22f158c0864b740800000000000000
+      internalID: 5166869075483108001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1733.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3d028a8ec229e10800000000000000
+      internalID: 2202872545502352357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1733.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a122691715b224b0800000000000000
+      internalID: -5466607886859624030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1576.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e9754429fd77800800000000000000
+      internalID: 610202093836803690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1576.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0643b0151660876c0800000000000000
+      internalID: -4145556441953258400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1576.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32016990f184b980800000000000000
+      internalID: -8524045324340100549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1576.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d77f71d26bd3730800000000000000
+      internalID: 3980537950457265454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1419.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3486ee6acf1ff7a70800000000000000
+      internalID: 8827039862104156227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1419.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1464021a421aea00800000000000000
+      internalID: 786461194268730397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1419.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97a747aa7e493700800000000000000
+      internalID: 520533520637470623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1419.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46dc1544e86ac6c0800000000000000
+      internalID: -4122367179282917810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1262.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ed367a1acd3d180800000000000000
+      internalID: -9091680635874714015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1262.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f936b3c7f9a085310800000000000000
+      internalID: 1393875764771513247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1262.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a662c38e27b5ea0800000000000000
+      internalID: -5882982146462291430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1262.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b91748c3351cbd50800000000000000
+      internalID: 6754296853296519604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1105.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5839540a6ecb09a60800000000000000
+      internalID: 7678845063384109957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1105.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9def23e56c69120800000000000000
+      internalID: 2420339957643008453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1105.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8fc78762b8123b0800000000000000
+      internalID: -5538993069342525198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1105.4615
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304c5b889a4df97c0800000000000000
+      internalID: -4062294514256722941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 948.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d9a4f6fc41a7940800000000000000
+      internalID: 5294567193085386049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 948.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60a41b090958e240800000000000000
+      internalID: 4821201296475594861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 948.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41e17799b13956a0800000000000000
+      internalID: -6460077517306732211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 948.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d02b3009406f75c0800000000000000
+      internalID: -4215544859542740781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 791.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d9097bee35979a0800000000000000
+      internalID: -6234859924370711139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 791.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ebf15eed5fafda0800000000000000
+      internalID: -5910141223294747031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 791.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978aa5c645bbfb990800000000000000
+      internalID: -7367964494085314439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 791.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f483aa9200fbfa0800000000000000
+      internalID: -5782903217570951364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 634.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f661580eb66b040800000000000000
+      internalID: 4663033076238413575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 634.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaac85e2f4e106b0800000000000000
+      internalID: -5331728751945536790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 634.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea529869942440b50800000000000000
+      internalID: 6558439841183901102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 634.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c7fd3d0971cb6d0800000000000000
+      internalID: -2973475743174001515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4357f2d86dc81d4f0800000000000000
+      internalID: -805708005203020492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 477.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25404386d07bff050800000000000000
+      internalID: 5836584910306149458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 477.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9180124fec4c8a100800000000000000
+      internalID: 119561783263430681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 477.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c890c5a47a6aae310800000000000000
+      internalID: 1435142668708219276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9396bb8c979a040800000000000000
+      internalID: 4659389192536144320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b29b917a4e3242b0800000000000000
+      internalID: -5601846497040952650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a087edcb1b97050800000000000000
+      internalID: 5798861419960601158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320.46155
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fcfe27b68a688f0800000000000000
+      internalID: -538557925980909744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 163.46153
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c8103744db61840800000000000000
+      internalID: 5194547321903352981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 163.46153
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c6b734a37eb7200800000000000000
+      internalID: 178990847637548179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 163.46153
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedb5ff17125a3860800000000000000
+      internalID: 7510405587867647468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everwing-enemy_group11_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 163.46153
+        width: 128
+        height: 157.53847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaeda0979d75e3c0800000000000000
+      internalID: -4330917376726013275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

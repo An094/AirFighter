@@ -7,6 +7,9 @@ TagManager:
   - background
   - enemy
   - bullet
+  - player
+  - explosion
+  - meteorite
   layers:
   - Default
   - TransparentFX

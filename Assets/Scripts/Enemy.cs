@@ -50,11 +50,12 @@ public class Enemy : MonoBehaviour
             }
             expl.transform.position = transform.position;
             expl.SetActive(true);
+            GameManager.ShareInstance.IncreaseScore();
         }
         else if(collision.transform.tag == "player")
         {
             gameObject.SetActive(false);
-            collision.gameObject.SetActive(false);
+            //collision.gameObject.SetActive(false);
             GameObject expl = ObjectPooler.SharedInstance.GetPooledObject("explosion");
             if (expl == null)
             {
@@ -63,7 +64,8 @@ public class Enemy : MonoBehaviour
             }
             expl.transform.position = transform.position;
             expl.SetActive(true);
-            Debug.Log("GAME OVER");
+            //Debug.Log("GAME OVER");
+            GameManager.ShareInstance.DecreaseHeart();
         }
     }
     void spawnBullet()

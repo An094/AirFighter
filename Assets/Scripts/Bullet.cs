@@ -33,6 +33,7 @@ public class Bullet : MonoBehaviour
             GameObject explosion = ObjectPooler.SharedInstance.GetPooledObject("explosion");
             explosion.transform.position = transform.position;
             explosion.SetActive(true);
+            GameManager.ShareInstance.IncreaseScore();
         }
     }
 }

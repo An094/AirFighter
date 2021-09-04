@@ -44,10 +44,11 @@ public class EnemyBullet : MonoBehaviour
         if(collision.transform.tag.Equals("player"))
         {
             this.gameObject.SetActive(false);
-            collision.gameObject.SetActive(false);
+            //collision.gameObject.SetActive(false);
             GameObject explosion = ObjectPooler.SharedInstance.GetPooledObject("explosion");
             explosion.transform.position = transform.position;
             explosion.SetActive(true);
+            GameManager.ShareInstance.DecreaseHeart();
         }
     }
 }

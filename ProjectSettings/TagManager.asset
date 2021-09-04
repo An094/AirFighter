@@ -10,6 +10,7 @@ TagManager:
   - player
   - explosion
   - meteorite
+  - enemybullet
   layers:
   - Default
   - TransparentFX

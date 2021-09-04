@@ -23,4 +23,16 @@ public class Bullet : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag.Equals("enemyinsquad"))
+        {
+            gameObject.SetActive(false);
+            collision.gameObject.SetActive(false);
+            GameObject explosion = ObjectPooler.SharedInstance.GetPooledObject("explosion");
+            explosion.transform.position = transform.position;
+            explosion.SetActive(true);
+        }
+    }
 }

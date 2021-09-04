@@ -34,8 +34,8 @@ public class Player : MonoBehaviour
         //}
 
 
-        if (Input.GetButton("Fire1")
-            && mousePos.x > m_ScreenBounds.x * -1.0f && mousePos.x < m_ScreenBounds.x
+        if (
+            mousePos.x > m_ScreenBounds.x * -1.0f && mousePos.x < m_ScreenBounds.x
             && mousePos.y > m_ScreenBounds.y * -1.0f && mousePos.y < m_ScreenBounds.y)
         {
             transform.position = mousePos;

@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
     private bool wasAdded;
 
     private float currentTime;
+    float currentTimeSquad;
     //public GameObject enemyPrefab;
 
     // Start is called before the first frame update
@@ -26,6 +27,7 @@ public class GameController : MonoBehaviour
         //Spawn enemies
         StartCoroutine(enemyWave());
         currentTime = 0.0f;
+        currentTimeSquad = 0.0f;
     }
 
     // Update is called once per frame
@@ -63,6 +65,16 @@ public class GameController : MonoBehaviour
         else
         {
             currentTime += Time.deltaTime;
+        }
+
+        if(currentTimeSquad + Time.deltaTime > 10.0f)
+        {
+            SpawnEnemySquad();
+            currentTimeSquad -= 10.0f;
+        }
+        else
+        {
+            currentTimeSquad += Time.deltaTime;
         }
     }
 
@@ -103,4 +115,23 @@ public class GameController : MonoBehaviour
         meteorite.transform.position = new Vector2(posEnemyX, m_ScreenBounds.y);
         meteorite.SetActive(true);
     }
+
+    void SpawnEnemySquad()
+    {
+        GameObject squad;
+        int val = Random.Range(0,2);
+        float posSquad = Random.Range(0.5f * m_ScreenBounds.y, m_ScreenBounds.y);
+        if(val == 1)
+        {
+            squad = ObjectPooler.SharedInstance.GetPooledObject("squad");
+            squad.transform.position = new Vector2(m_ScreenBounds.x, posSquad);
+        }
+        else
+        {
+            squad = ObjectPooler.SharedInstance.GetPooledObject("squad2");
+            squad.transform.position = new Vector2(-1.0f * m_ScreenBounds.x, posSquad);
+        }
+        squad.SetActive(true);
+    }
+
 }

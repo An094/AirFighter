@@ -11,6 +11,9 @@ TagManager:
   - explosion
   - meteorite
   - enemybullet
+  - squad
+  - squad2
+  - enemyinsquad
   layers:
   - Default
   - TransparentFX

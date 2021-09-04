@@ -249,10 +249,16 @@ MonoBehaviour:
     amountToPool: 10
     shouldExpand: 1
   - objectToPool: {fileID: 9185913609948467600, guid: a901e289b70aec6469091563fb4331d6, type: 3}
-    amountToPool: 10
+    amountToPool: 2
     shouldExpand: 1
   - objectToPool: {fileID: 1308702976735862467, guid: 752e356465e3aad409bac33c11be906e, type: 3}
     amountToPool: 10
+    shouldExpand: 1
+  - objectToPool: {fileID: 7235704336031760362, guid: a4f020cdd0ca5a54e8124f132cd6d4d3, type: 3}
+    amountToPool: 1
+    shouldExpand: 1
+  - objectToPool: {fileID: 761890501544585539, guid: 9c9d152ea0bb59c4cae051901b8ce103, type: 3}
+    amountToPool: 1
     shouldExpand: 1
   pooledObjects:
   - {fileID: 0}

@@ -51,6 +51,24 @@ public class Enemy : MonoBehaviour
             expl.transform.position = transform.position;
             expl.SetActive(true);
             GameManager.ShareInstance.IncreaseScore();
+
+            //Drop item
+            int rnd = Random.Range(0, 12);
+            Debug.Log(rnd.ToString());
+
+            if (rnd == 0)
+            {
+                GameObject heartItem = ObjectPooler.SharedInstance.GetPooledObject("heartitem");
+                heartItem.transform.position = transform.position;
+                heartItem.SetActive(true);
+            }
+            else if(rnd == 1)
+            {
+                GameObject bombItem = ObjectPooler.SharedInstance.GetPooledObject("bombitem");
+                bombItem.transform.position = transform.position;
+                bombItem.SetActive(true);
+            }
+
         }
         else if(collision.transform.tag == "player")
         {

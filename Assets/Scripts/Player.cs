@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     Vector3 m_ScreenBounds;
-    float shotTime = 0.3f;
+    float shotTime = 0.25f;
     float currentTime = 0.0f;
     // Start is called before the first frame update
     void Start()
@@ -56,6 +56,20 @@ public class Player : MonoBehaviour
         else
         {
             currentTime += Time.deltaTime;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.transform.tag.Equals("heartitem"))
+        {
+            GameManager.ShareInstance.IncreaseHeart();
+            collision.gameObject.SetActive(false);
+        }
+        else if(collision.transform.tag.Equals("bombitem"))
+        {
+            GameController.DestroyAllEnemy();
+            collision.gameObject.SetActive(false);
         }
     }
 }

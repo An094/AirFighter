@@ -16,6 +16,8 @@ TagManager:
   - enemyinsquad
   - boss
   - bossbullet
+  - heartitem
+  - bombitem
   layers:
   - Default
   - TransparentFX

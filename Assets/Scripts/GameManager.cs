@@ -48,6 +48,19 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void IncreaseHeart()
+    {
+        numHeart += 1;
+        if(numHeart == 2)
+        {
+            heart2.gameObject.SetActive(true);
+        }
+        if(numHeart == 3)
+        {
+            heart1.gameObject.SetActive(true);
+        }
+    }
+
     public void DecreaseHeart()
     {
         numHeart -= 1;

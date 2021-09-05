@@ -147,4 +147,59 @@ public class GameController : MonoBehaviour
         boss.transform.position = new Vector2(0.0f, m_ScreenBounds.y + 1);
         boss.SetActive(true);
     }
+
+    public static void DestroyAllEnemy()
+    {
+        GameObject[] enemyArray = GameObject.FindGameObjectsWithTag("enemy");
+        GameObject[] squad1Array = GameObject.FindGameObjectsWithTag("squad");
+        GameObject[] squad2Array = GameObject.FindGameObjectsWithTag("squad2");
+        GameObject[] meteoriteArray = GameObject.FindGameObjectsWithTag("meteorite");
+        GameObject[] enemybulletArray = GameObject.FindGameObjectsWithTag("enemybullet");
+        GameObject[] bossbulletArray = GameObject.FindGameObjectsWithTag("bossbullet");
+
+        foreach(GameObject ele in enemyArray)
+        {
+            ele.SetActive(false);
+            GameObject explosion = ObjectPooler.SharedInstance.GetPooledObject("explosion");
+            explosion.transform.position = ele.transform.position;
+            explosion.SetActive(true);
+        }
+
+        foreach (GameObject ele in squad1Array)
+        {
+            ele.SetActive(false);
+            ele.SetActive(false);
+            GameObject explosion = ObjectPooler.SharedInstance.GetPooledObject("explosion");
+            explosion.transform.position = ele.transform.position;
+            explosion.SetActive(true);
+        }
+
+        foreach (GameObject ele in squad2Array)
+        {
+            ele.SetActive(false);
+            ele.SetActive(false);
+            GameObject explosion = ObjectPooler.SharedInstance.GetPooledObject("explosion");
+            explosion.transform.position = ele.transform.position;
+            explosion.SetActive(true);
+        }
+
+        foreach (GameObject ele in meteoriteArray)
+        {
+            ele.SetActive(false);
+            ele.SetActive(false);
+            GameObject explosion = ObjectPooler.SharedInstance.GetPooledObject("explosion");
+            explosion.transform.position = ele.transform.position;
+            explosion.SetActive(true);
+        }
+
+        foreach (GameObject ele in enemybulletArray)
+        {
+            ele.SetActive(false);
+        }
+
+        foreach (GameObject ele in bossbulletArray)
+        {
+            ele.SetActive(false);
+        }
+    }
 }

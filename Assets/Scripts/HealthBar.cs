@@ -25,6 +25,6 @@ public class HealthBar : MonoBehaviour
 
     public void DecreaseHealth()
     {
-        currentHealth -= 10f;
+        currentHealth -= 5f;
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BulletBoss : MonoBehaviour
 {
+    Vector3 m_ScreenBounds;
     private Vector2 moveDirection;
     private float moveSpeed;
 
@@ -14,6 +15,7 @@ public class BulletBoss : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        m_ScreenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
         moveSpeed = 5f;
     }
 
@@ -21,6 +23,14 @@ public class BulletBoss : MonoBehaviour
     void Update()
     {
         transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
+        Vector2 currentPos = transform.position;
+        if(currentPos.x < -1f * m_ScreenBounds.x
+        || currentPos.x > m_ScreenBounds.x
+        || currentPos.y < -1f * m_ScreenBounds.y
+        || currentPos.y > m_ScreenBounds.y)
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     public void SetMoveDirection(Vector2 dir)

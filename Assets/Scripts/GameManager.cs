@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager ShareInstance;
@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
     {
         score += 1;
         scoreText.text = score.ToString();
-        if(score == 30)
+        if(score == 30 || score == 70 || score == 120)
         {
             isSpawnBoss = true;
         }
@@ -81,6 +81,8 @@ public class GameManager : MonoBehaviour
             GameObject explosion = ObjectPooler.SharedInstance.GetPooledObject("explosion");
             explosion.transform.position = playerPrefab.transform.position;
             explosion.SetActive(true);
+            StartCoroutine(EndGame());
+            SoundManager.PlaySound("gameover");
         }
     }
     
@@ -92,5 +94,11 @@ public class GameManager : MonoBehaviour
     public void StopSpawnBoss()
     {
         isSpawnBoss = false;
+    }
+
+    private IEnumerator EndGame()
+    {
+        yield return new WaitForSeconds(2.0f);
+        SceneManager.LoadScene(2);
     }
 }

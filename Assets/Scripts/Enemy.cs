@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
             gameObject.SetActive(false);
         }
 
-        if(currentTime >= 1.2f)
+        if(currentTime >= 1.2f && transform.position.y >= -0.5f *m_ScreenBounds.y)
         {
             spawnBullet();
             currentTime -= 1.2f;

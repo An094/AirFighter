@@ -76,6 +76,13 @@ public class GameController : MonoBehaviour
         {
             currentTimeSquad += Time.deltaTime;
         }
+
+        //Spawn boss
+        if(GameManager.ShareInstance.IsSpawnBoss())
+        {
+            SpawnBoss();
+            GameManager.ShareInstance.StopSpawnBoss();
+        }
     }
 
     IEnumerator enemyWave()
@@ -134,4 +141,10 @@ public class GameController : MonoBehaviour
         squad.SetActive(true);
     }
 
+    void SpawnBoss()
+    {
+        GameObject boss = ObjectPooler.SharedInstance.GetPooledObject("boss");
+        boss.transform.position = new Vector2(0.0f, m_ScreenBounds.y + 1);
+        boss.SetActive(true);
+    }
 }

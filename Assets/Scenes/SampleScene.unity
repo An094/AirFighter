@@ -733,6 +733,12 @@ MonoBehaviour:
   - objectToPool: {fileID: 761890501544585539, guid: 9c9d152ea0bb59c4cae051901b8ce103, type: 3}
     amountToPool: 1
     shouldExpand: 1
+  - objectToPool: {fileID: 5898355820339478734, guid: 6187c42dc8d5f7747a0ab26089de79fb, type: 3}
+    amountToPool: 1
+    shouldExpand: 1
+  - objectToPool: {fileID: 3475734702094586495, guid: 30d7e0cf3cb674546924be42325db946, type: 3}
+    amountToPool: 20
+    shouldExpand: 1
   pooledObjects:
   - {fileID: 0}
 --- !u!4 &830990363
@@ -749,6 +755,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &867340539 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1692992535140657448, guid: ac7aac0df58f14d47809c6ff4e3e9179, type: 3}
+  m_PrefabInstance: {fileID: 1692992535329957605}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1080990092
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,6 +805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 518369715}
+  playerPrefab: {fileID: 867340539}
   heart1: {fileID: 658816542}
   heart2: {fileID: 167996300}
   heart3: {fileID: 422470244}

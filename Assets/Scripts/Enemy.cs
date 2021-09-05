@@ -25,10 +25,10 @@ public class Enemy : MonoBehaviour
             gameObject.SetActive(false);
         }
 
-        if(currentTime >= 1.0f)
+        if(currentTime >= 1.2f)
         {
             spawnBullet();
-            currentTime -= 1.0f;
+            currentTime -= 1.2f;
         }
         else
         {
@@ -70,8 +70,8 @@ public class Enemy : MonoBehaviour
     }
     void spawnBullet()
     {
-        float timeSpawn = Random.Range(0.5f, 1.5f);
-        if(timeSpawn < 1.0f)
+        int rand = Random.Range(0, 2);
+        if(rand == 1)
         {
             return;
         }

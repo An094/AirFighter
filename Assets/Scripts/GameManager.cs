@@ -9,10 +9,14 @@ public class GameManager : MonoBehaviour
     public Text scoreText;
     private int score;
 
+    public GameObject playerPrefab;
+
     private int numHeart;
     public GameObject heart1;
     public GameObject heart2;
     public GameObject heart3;
+
+    bool isSpawnBoss;
 
     // Start is called before the first frame update
 
@@ -25,6 +29,7 @@ public class GameManager : MonoBehaviour
     {
         score = 0;
         numHeart = 3;
+        isSpawnBoss = false;
     }
 
     // Update is called once per frame
@@ -37,6 +42,10 @@ public class GameManager : MonoBehaviour
     {
         score += 1;
         scoreText.text = score.ToString();
+        if(score == 30)
+        {
+            isSpawnBoss = true;
+        }
     }
 
     public void DecreaseHeart()
@@ -54,6 +63,20 @@ public class GameManager : MonoBehaviour
         {
             heart3.gameObject.SetActive(false);
             Debug.Log("GAME OVER");
+            playerPrefab.SetActive(false);
+            GameObject explosion = ObjectPooler.SharedInstance.GetPooledObject("explosion");
+            explosion.transform.position = playerPrefab.transform.position;
+            explosion.SetActive(true);
         }
+    }
+    
+    public bool IsSpawnBoss()
+    {
+        return isSpawnBoss;
+    }
+
+    public void StopSpawnBoss()
+    {
+        isSpawnBoss = false;
     }
 }

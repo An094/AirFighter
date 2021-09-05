@@ -51,6 +51,7 @@ public class Enemy : MonoBehaviour
             expl.transform.position = transform.position;
             expl.SetActive(true);
             GameManager.ShareInstance.IncreaseScore();
+            SoundManager.PlaySound("explosion");
 
             //Drop item
             int rnd = Random.Range(0, 12);
@@ -84,6 +85,7 @@ public class Enemy : MonoBehaviour
             expl.SetActive(true);
             //Debug.Log("GAME OVER");
             GameManager.ShareInstance.DecreaseHeart();
+            SoundManager.PlaySound("explosion");
         }
     }
     void spawnBullet()

@@ -35,6 +35,7 @@ public class Bullet : MonoBehaviour
             explosion.transform.position = transform.position;
             explosion.SetActive(true);
             GameManager.ShareInstance.IncreaseScore();
+            SoundManager.PlaySound("explosion");
         }
     }
 }

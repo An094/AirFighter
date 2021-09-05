@@ -18,7 +18,7 @@ public class GameController : MonoBehaviour
     void Start()
     {
         m_ScreenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
-
+        SoundManager.PlaySound("background");
         //Create background
         currentBackgroud = ObjectPooler.SharedInstance.GetPooledObject("background");
         currentBackgroud.SetActive(true);
@@ -150,6 +150,7 @@ public class GameController : MonoBehaviour
 
     public static void DestroyAllEnemy()
     {
+        SoundManager.PlaySound("explosion");
         GameObject[] enemyArray = GameObject.FindGameObjectsWithTag("enemy");
         GameObject[] squad1Array = GameObject.FindGameObjectsWithTag("squad");
         GameObject[] squad2Array = GameObject.FindGameObjectsWithTag("squad2");

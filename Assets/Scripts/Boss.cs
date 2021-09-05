@@ -45,6 +45,12 @@ public class Boss : MonoBehaviour
             expl.transform.position = collision.transform.position;
             expl.SetActive(true);
             HitBullet();
+            SoundManager.PlaySound("explosion");
         }
+    }
+
+    public void Destroy()
+    {
+        gameObject.SetActive(false);
     }
 }

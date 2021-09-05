@@ -5,6 +5,11 @@ using UnityEngine;
 public class Explosion : MonoBehaviour
 {
     float currentTime;
+    private void OnEnable()
+    {
+        //SoundManager.PlaySound("explosion");
+    }
+
     // Start is called before the first frame update
     void onStart()
     {

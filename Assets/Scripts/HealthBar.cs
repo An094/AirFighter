@@ -26,5 +26,9 @@ public class HealthBar : MonoBehaviour
     public void DecreaseHealth()
     {
         currentHealth -= 5f;
+        if(currentHealth <= 0f)
+        {
+            transform.parent.transform.GetComponent<Boss>().Destroy();
+        }
     }
 }

@@ -63,6 +63,7 @@ public class GameManager : MonoBehaviour
 
     public void DecreaseHeart()
     {
+        Camera.main.GetComponent<CameraShake>().Shake();
         numHeart -= 1;
         if(numHeart == 2)
         {

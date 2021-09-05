@@ -43,4 +43,9 @@ public class FireBullets : MonoBehaviour
     {
         
     }
+
+    private void OnDisable()
+    {
+        CancelInvoke();
+    }
 }
